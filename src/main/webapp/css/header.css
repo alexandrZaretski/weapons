@@ -1,0 +1,37 @@
+.back{
+    background-color: #225eaa;
+    border: blue thin solid;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.menu1{
+    margin-left: 847px;
+    font-weight: 600;
+// width: 50%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}

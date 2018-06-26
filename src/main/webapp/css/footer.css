@@ -1,0 +1,25 @@
+.footer-centered{
+    background-color: rgba(35, 35, 35, 0.99);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: bold 20px sans-serif;
+    padding: 30px 45px 30px;
+    margin-top: 1px;
+}
+
+.footer-centered .footer-name{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .footer-centered{
+        padding: 35px;
+    }
+    .footer-centered .footer-name{
+        font-size: 12px;
+    }
+}
